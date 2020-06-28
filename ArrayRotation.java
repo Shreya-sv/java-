@@ -11,7 +11,7 @@ class ArrayRotation
         int test = Integer.parseInt(br.readLine());
         
         
-        while(test!=0)
+        while(test --> 0)
         {
             StringTokenizer st = new StringTokenizer(br.readLine());
             int len = Integer.parseInt(st.nextToken());
@@ -34,8 +34,9 @@ class ArrayRotation
                 System.out.print(answer[j]+" ");
             }
           
-           test--;
+         
             System.out.println();
         }
+        System.out.print("testtt");
     }
 }
